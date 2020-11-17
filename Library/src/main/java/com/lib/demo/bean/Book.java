@@ -1,12 +1,34 @@
 package com.lib.demo.bean;
 
-import java.util.Set;
-
 public class Book {
+
+	@Override
+	public String toString() {
+		return "Book [name=" + name + ", id=" + id + ", author=" + author + ", total=" + total + ", type=" + type + "]";
+	}
+
 	private String name;
 	private int id;
+	private String author;
 	private int total;
-	private Set<User> borrowedUsers;
+	private String type;
+//	private Set<User> borrowedUsers;
+
+	public String getAuthor() {
+		return author;
+	}
+
+	public void setAuthor(String author) {
+		this.author = author;
+	}
+
+	public String getType() {
+		return type;
+	}
+
+	public void setType(String type) {
+		this.type = type;
+	}
 
 	public String getName() {
 		return name;
@@ -32,11 +54,4 @@ public class Book {
 		this.total = total;
 	}
 
-	public Set<User> getBorrowedUsers() {
-		return borrowedUsers;
-	}
-
-	public void setBorrowedUsers(Set<User> borrowedUsers) {
-		this.borrowedUsers = borrowedUsers;
-	}
 }

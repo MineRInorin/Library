@@ -1,10 +1,10 @@
 package com.lib.demo.mapper;
 
-import org.apache.ibatis.annotations.Mapper;
+import org.springframework.stereotype.Repository;
 
 import com.lib.demo.bean.Book;
 
-@Mapper
+@Repository
 public interface BookMapper {
 
 	// 插入图书信息
