@@ -1,0 +1,23 @@
+ID –注册时设定，用户无法修改ID   //Not null 主键   int
+姓名 – 输入框， 20个汉字限制     //Not null utf-8  String
+性别 – 输入框，5个字符长度限制   //Not null 0/1   int
+年龄 – 输入框，5个字符长度限制   //int
+邮箱 – 输入框，30个字符长度限制    //Varchar(30)
+出生年月 – 输入框，30个字符长度限制   //Date
+联系电话 – 输入框，30个字符长度限制   //long
+居住地址 – 输入框，100个字符长度限制  //Varchar(100)
+个人描述 – 输入框，100个字符长度限制  //Varchar(100)
+密码 – 输入框，30个字符长度限制   //Not null Varchar(30)
+权限 - 注册时创建 //Not null 0/1 int
+
+User:
+借阅书籍名称    //Set<Book>
+借阅时间    //Date
+应归还时间  //Date
+借阅有效期  //int 过一天自动递减
+
+Book:
+书籍名称   //Varchar(30)  not null
+书籍ID     //int  主键 Not null
+书籍数量   //int
+已借读者信息  //Set<User>

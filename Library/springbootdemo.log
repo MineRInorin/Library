@@ -1,0 +1,126 @@
+2020-11-14 13:09:50.172  INFO 9892 --- [restartedMain] com.lib.demo.LibraryApplication          : Starting LibraryApplication on DESKTOP-34BK2RT with PID 9892 (E:\Git\Library\target\classes started by teebo in E:\Git\Library)
+2020-11-14 13:09:50.173  INFO 9892 --- [restartedMain] com.lib.demo.LibraryApplication          : No active profile set, falling back to default profiles: default
+2020-11-14 13:09:50.305  WARN 9892 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.lib.demo]' package. Please check your configuration.
+2020-11-14 13:09:50.406  INFO 9892 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2020-11-14 13:09:50.407  INFO 9892 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-14 13:09:50.407  INFO 9892 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-14 13:09:50.420  INFO 9892 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-14 13:09:50.420  INFO 9892 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 244 ms
+2020-11-14 13:09:50.483  INFO 9892 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-14 13:09:50.565  INFO 9892 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-14 13:09:50.576  INFO 9892 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2020-11-14 13:09:50.577  INFO 9892 --- [restartedMain] com.lib.demo.LibraryApplication          : Started LibraryApplication in 0.436 seconds (JVM running for 870.198)
+2020-11-14 13:09:50.580  INFO 9892 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-11-14 13:10:11.077  INFO 9892 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-14 13:10:11.326  INFO 9892 --- [restartedMain] com.lib.demo.LibraryApplication          : Starting LibraryApplication on DESKTOP-34BK2RT with PID 9892 (E:\Git\Library\target\classes started by teebo in E:\Git\Library)
+2020-11-14 13:10:11.326  INFO 9892 --- [restartedMain] com.lib.demo.LibraryApplication          : No active profile set, falling back to default profiles: default
+2020-11-14 13:10:11.432  WARN 9892 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.lib.demo]' package. Please check your configuration.
+2020-11-14 13:10:11.520  INFO 9892 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2020-11-14 13:10:11.521  INFO 9892 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-14 13:10:11.521  INFO 9892 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-14 13:10:11.535  INFO 9892 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-14 13:10:11.535  INFO 9892 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 206 ms
+2020-11-14 13:10:11.587  INFO 9892 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-14 13:10:11.643  INFO 9892 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-14 13:10:11.655  INFO 9892 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2020-11-14 13:10:11.656  INFO 9892 --- [restartedMain] com.lib.demo.LibraryApplication          : Started LibraryApplication in 0.355 seconds (JVM running for 891.278)
+2020-11-14 13:10:11.657  INFO 9892 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-11-14 13:16:45.609  INFO 9892 --- [Thread-14] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-14 13:16:45.786  INFO 9892 --- [restartedMain] com.lib.demo.LibraryApplication          : Starting LibraryApplication on DESKTOP-34BK2RT with PID 9892 (E:\Git\Library\target\classes started by teebo in E:\Git\Library)
+2020-11-14 13:16:45.786  INFO 9892 --- [restartedMain] com.lib.demo.LibraryApplication          : No active profile set, falling back to default profiles: default
+2020-11-14 13:16:45.895  WARN 9892 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.lib.demo]' package. Please check your configuration.
+2020-11-14 13:16:45.980  INFO 9892 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2020-11-14 13:16:45.981  INFO 9892 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-14 13:16:45.981  INFO 9892 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-14 13:16:45.997  INFO 9892 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-14 13:16:45.997  INFO 9892 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 209 ms
+2020-11-14 13:16:46.041  INFO 9892 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-14 13:16:46.102  INFO 9892 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-14 13:16:46.114  INFO 9892 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2020-11-14 13:16:46.115  INFO 9892 --- [restartedMain] com.lib.demo.LibraryApplication          : Started LibraryApplication in 0.346 seconds (JVM running for 1285.736)
+2020-11-14 13:16:46.116  INFO 9892 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-11-14 20:17:00.135  INFO 9892 --- [Thread-19] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-14 20:17:00.400  INFO 9892 --- [restartedMain] com.lib.demo.LibraryApplication          : Starting LibraryApplication on DESKTOP-34BK2RT with PID 9892 (E:\Git\Library\target\classes started by teebo in E:\Git\Library)
+2020-11-14 20:17:00.400  INFO 9892 --- [restartedMain] com.lib.demo.LibraryApplication          : No active profile set, falling back to default profiles: default
+2020-11-14 20:17:00.545  WARN 9892 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.lib.demo]' package. Please check your configuration.
+2020-11-14 20:17:00.640  INFO 9892 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2020-11-14 20:17:00.641  INFO 9892 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-14 20:17:00.641  INFO 9892 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-14 20:17:00.659  INFO 9892 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-14 20:17:00.659  INFO 9892 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 256 ms
+2020-11-14 20:17:00.723  INFO 9892 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-14 20:17:00.825  INFO 9892 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-14 20:17:00.842  INFO 9892 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2020-11-14 20:17:00.842  INFO 9892 --- [restartedMain] com.lib.demo.LibraryApplication          : Started LibraryApplication in 0.469 seconds (JVM running for 26500.464)
+2020-11-14 20:17:00.843  INFO 9892 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-11-14 20:23:26.693  INFO 9892 --- [Thread-24] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-14 20:23:26.912  INFO 9892 --- [restartedMain] com.lib.demo.LibraryApplication          : Starting LibraryApplication on DESKTOP-34BK2RT with PID 9892 (E:\Git\Library\target\classes started by teebo in E:\Git\Library)
+2020-11-14 20:23:26.913  INFO 9892 --- [restartedMain] com.lib.demo.LibraryApplication          : No active profile set, falling back to default profiles: default
+2020-11-14 20:23:27.036  WARN 9892 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.lib.demo]' package. Please check your configuration.
+2020-11-14 20:23:27.129  INFO 9892 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2020-11-14 20:23:27.130  INFO 9892 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-14 20:23:27.130  INFO 9892 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-14 20:23:27.142  INFO 9892 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-14 20:23:27.142  INFO 9892 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 225 ms
+2020-11-14 20:23:27.179  INFO 9892 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-14 20:23:27.224  INFO 9892 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-14 20:23:27.230  INFO 9892 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2020-11-14 20:23:27.231  INFO 9892 --- [restartedMain] com.lib.demo.LibraryApplication          : Started LibraryApplication in 0.336 seconds (JVM running for 26886.853)
+2020-11-14 20:23:27.232  INFO 9892 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-11-14 20:27:15.398  INFO 9892 --- [Thread-29] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-14 20:27:15.626  INFO 9892 --- [restartedMain] com.lib.demo.LibraryApplication          : Starting LibraryApplication on DESKTOP-34BK2RT with PID 9892 (E:\Git\Library\target\classes started by teebo in E:\Git\Library)
+2020-11-14 20:27:15.626  INFO 9892 --- [restartedMain] com.lib.demo.LibraryApplication          : No active profile set, falling back to default profiles: default
+2020-11-14 20:27:15.727  WARN 9892 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.lib.demo]' package. Please check your configuration.
+2020-11-14 20:27:15.808  INFO 9892 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2020-11-14 20:27:15.809  INFO 9892 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-14 20:27:15.809  INFO 9892 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-14 20:27:15.820  INFO 9892 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-14 20:27:15.820  INFO 9892 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 192 ms
+2020-11-14 20:27:15.860  INFO 9892 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-14 20:27:15.911  INFO 9892 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-14 20:27:15.921  INFO 9892 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2020-11-14 20:27:15.922  INFO 9892 --- [restartedMain] com.lib.demo.LibraryApplication          : Started LibraryApplication in 0.316 seconds (JVM running for 27115.543)
+2020-11-14 20:27:15.923  INFO 9892 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-11-14 20:33:32.642  INFO 9892 --- [Thread-34] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-14 20:33:32.861  INFO 9892 --- [restartedMain] com.lib.demo.LibraryApplication          : Starting LibraryApplication on DESKTOP-34BK2RT with PID 9892 (E:\Git\Library\target\classes started by teebo in E:\Git\Library)
+2020-11-14 20:33:32.861  INFO 9892 --- [restartedMain] com.lib.demo.LibraryApplication          : No active profile set, falling back to default profiles: default
+2020-11-14 20:33:32.955  WARN 9892 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.lib.demo]' package. Please check your configuration.
+2020-11-14 20:33:33.027  INFO 9892 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2020-11-14 20:33:33.027  INFO 9892 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-14 20:33:33.027  INFO 9892 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-14 20:33:33.038  INFO 9892 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-14 20:33:33.039  INFO 9892 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 176 ms
+2020-11-14 20:33:33.075  INFO 9892 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-14 20:33:33.120  INFO 9892 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-14 20:33:33.129  INFO 9892 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2020-11-14 20:33:33.129  INFO 9892 --- [restartedMain] com.lib.demo.LibraryApplication          : Started LibraryApplication in 0.284 seconds (JVM running for 27492.751)
+2020-11-14 20:33:33.130  INFO 9892 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-11-14 20:38:36.749  INFO 9892 --- [Thread-39] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-14 20:38:36.940  INFO 9892 --- [restartedMain] com.lib.demo.LibraryApplication          : Starting LibraryApplication on DESKTOP-34BK2RT with PID 9892 (E:\Git\Library\target\classes started by teebo in E:\Git\Library)
+2020-11-14 20:38:36.940  INFO 9892 --- [restartedMain] com.lib.demo.LibraryApplication          : No active profile set, falling back to default profiles: default
+2020-11-14 20:38:37.037  WARN 9892 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.lib.demo]' package. Please check your configuration.
+2020-11-14 20:38:37.106  INFO 9892 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2020-11-14 20:38:37.106  INFO 9892 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-14 20:38:37.108  INFO 9892 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-14 20:38:37.118  INFO 9892 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-14 20:38:37.118  INFO 9892 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 177 ms
+2020-11-14 20:38:37.156  INFO 9892 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-14 20:38:37.192  INFO 9892 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-14 20:38:37.201  INFO 9892 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2020-11-14 20:38:37.202  INFO 9892 --- [restartedMain] com.lib.demo.LibraryApplication          : Started LibraryApplication in 0.278 seconds (JVM running for 27796.824)
+2020-11-14 20:38:37.203  INFO 9892 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-11-14 20:39:58.998  INFO 9892 --- [Thread-44] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-14 20:44:12.737  INFO 9892 --- [restartedMain] com.lib.demo.LibraryApplication          : Starting LibraryApplication on DESKTOP-34BK2RT with PID 9892 (E:\Git\Library\target\classes started by teebo in E:\Git\Library)
+2020-11-14 20:44:12.737  INFO 9892 --- [restartedMain] com.lib.demo.LibraryApplication          : No active profile set, falling back to default profiles: default
+2020-11-14 20:44:12.816  WARN 9892 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.lib.demo]' package. Please check your configuration.
+2020-11-14 20:44:12.890  INFO 9892 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2020-11-14 20:44:12.891  INFO 9892 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-14 20:44:12.891  INFO 9892 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-14 20:44:12.904  INFO 9892 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-14 20:44:12.904  INFO 9892 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 165 ms
+2020-11-14 20:44:12.937  INFO 9892 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-14 20:44:12.971  INFO 9892 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-14 20:44:12.977  INFO 9892 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2020-11-14 20:44:12.978  INFO 9892 --- [restartedMain] com.lib.demo.LibraryApplication          : Started LibraryApplication in 0.253 seconds (JVM running for 28132.599)
+2020-11-14 20:44:12.979  INFO 9892 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-11-14 20:47:10.942  INFO 9892 --- [Thread-64] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

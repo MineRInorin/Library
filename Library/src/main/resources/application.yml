@@ -1,0 +1,4 @@
+logging:
+  file:
+    name: System.log
+    path: /var/log
