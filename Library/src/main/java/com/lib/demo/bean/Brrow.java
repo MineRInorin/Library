@@ -5,6 +5,8 @@ import com.baomidou.mybatisplus.extension.activerecord.Model;
 import java.time.LocalDate;
 import com.baomidou.mybatisplus.annotation.TableId;
 import java.io.Serializable;
+import java.sql.Date;
+
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
@@ -18,32 +20,33 @@ import lombok.EqualsAndHashCode;
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
-public class User extends Model<User> {
+public class Brrow extends Model<Brrow> {
 
     private static final long serialVersionUID = 1L;
+
+    private Integer retCheck;
+
+    /**
+     * 续借check
+     */
+    private Integer addCheck;
+
+    private Integer brrCheck;
+
+    private String bookName;
 
     @TableId(value = "id", type = IdType.AUTO)
     private Integer id;
 
-    private String name;
+    private Integer uId;
 
-    private String pwd;
+    private Integer bookId;
 
-    private Integer age;
+    private Date brrowDate;
 
-    private LocalDate birthday;
+    private Date returnDate;
 
-    private Integer tel;
-
-    private Integer roleId;
-
-    private Integer sex;
-
-    private String info;
-
-    private String address;
-
-    private String email;
+    private Date expectDate;
 
 
     @Override

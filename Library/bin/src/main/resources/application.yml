@@ -2,3 +2,11 @@ logging:
   file:
     name: System.log
     path: /var/log
+mybatis:  mapperLocations: classpath :mapper/*Mapper.xml
+  type-aliases-package: com.lib.demo.bean
+server:  port: 8888
+spring:
+  devtools:    restart:      enabled: true  datasource:    url: jdbc:mysql://localhost:3306/library?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver

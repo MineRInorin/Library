@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lib.demo.mapper.BrrowMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.lib.demo.bean.Brrow">
+        <id column="id" property="id" />
+        <result column="ret_check" property="retCheck" />
+        <result column="add_check" property="addCheck" />
+        <result column="brr_check" property="brrCheck" />
+        <result column="book_name" property="bookName" />
+        <result column="u_id" property="uId" />
+        <result column="book_id" property="bookId" />
+        <result column="brrow_date" property="brrowDate" />
+        <result column="return_date" property="returnDate" />
+        <result column="expect_date" property="expectDate" />
+    </resultMap>
+
+</mapper>

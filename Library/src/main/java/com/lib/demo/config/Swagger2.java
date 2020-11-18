@@ -27,10 +27,10 @@ public class Swagger2 {
 	private ApiInfo apiInfo() {
 		return new ApiInfoBuilder()
 				// 页面标题
-				.title("Spring Boot 测试使用 Swagger2 构建RESTful API")
+				.title("图书管理系统 API")
 				// 版本号
 				.version("1.0")
 				// 描述
-				.description("API 描述").build();
+				.description("增删改查").build();
 	}
 }

@@ -1,11 +1,20 @@
 package com.lib.demo.mapper;
 
-import org.apache.ibatis.annotations.Mapper;
+import com.lib.demo.bean.User;
 
-//添加MyBatis接口方法
-@Mapper
-public interface UserMapper {
+import org.springframework.stereotype.Repository;
 
-	// 与Service层通信的测试接口
-	public void insert();
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+
+/**
+ * <p>
+ *  Mapper 接口
+ * </p>
+ *
+ * @author ibm5
+ * @since 2020-11-17
+ */
+@Repository
+public interface UserMapper extends BaseMapper<User> {
+
 }

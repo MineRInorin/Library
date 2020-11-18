@@ -1,57 +1,47 @@
 package com.lib.demo.bean;
 
-public class Book {
+import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.extension.activerecord.Model;
+import com.baomidou.mybatisplus.annotation.TableId;
+import java.io.Serializable;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
 
-	@Override
-	public String toString() {
-		return "Book [name=" + name + ", id=" + id + ", author=" + author + ", total=" + total + ", type=" + type + "]";
-	}
+/**
+ * <p>
+ * 
+ * </p>
+ *
+ * @author ibm5
+ * @since 2020-11-17
+ */
+@Data
+@EqualsAndHashCode(callSuper = false)
+public class Book extends Model<Book> {
 
-	private String name;
-	private int id;
-	private String author;
-	private int total;
-	private String type;
-//	private Set<User> borrowedUsers;
+    private static final long serialVersionUID = 1L;
 
-	public String getAuthor() {
-		return author;
-	}
+    @TableId(value = "id", type = IdType.AUTO)
+    private Integer id;
 
-	public void setAuthor(String author) {
-		this.author = author;
-	}
+    private String name;
 
-	public String getType() {
-		return type;
-	}
+    private String author;
 
-	public void setType(String type) {
-		this.type = type;
-	}
+    private Integer total;
 
-	public String getName() {
-		return name;
-	}
+    private String type;
 
-	public void setName(String name) {
-		this.name = name;
-	}
+    private String country;
 
-	public int getId() {
-		return id;
-	}
+    private String length;
 
-	public void setId(int id) {
-		this.id = id;
-	}
+    private String theme;
 
-	public int getTotal() {
-		return total;
-	}
 
-	public void setTotal(int total) {
-		this.total = total;
-	}
+    @Override
+    protected Serializable pkVal() {
+        return this.id;
+    }
 
 }
