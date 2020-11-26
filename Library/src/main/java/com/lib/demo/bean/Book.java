@@ -17,7 +17,7 @@ import lombok.EqualsAndHashCode;
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
-public class Book extends Model<Book> {
+public class Book extends Model<Book> implements Serializable{
 
     private static final long serialVersionUID = 1L;
 
@@ -37,7 +37,10 @@ public class Book extends Model<Book> {
     private String length;
 
     private String theme;
-
+    
+    private String bookdesc;
+    
+    private String img;
 
     @Override
     protected Serializable pkVal() {

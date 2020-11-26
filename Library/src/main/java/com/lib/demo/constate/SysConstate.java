@@ -12,7 +12,7 @@ public interface SysConstate {
 	     * 操作状态
 	     */
 	    String LOGIN_SUCCESS="登陆成功";
-	    String LOGIN_ERROR="登陆失败";
+	    String LOGIN_ERROR="登陆失败,请检查账号密码";
 	    
 	    String ADD_SUCCESS="添加成功";
 	    String ADD_ERROR="添加失败";
@@ -25,6 +25,8 @@ public interface SysConstate {
 
 	    String RESET_SUCCESS="重置成功";
 	    String RESET_ERROR="重置失败";
+	    String RETURN_SUCCESS = "归还成功";
+	    String RETURN_ERROR = "归还失败";
 
 	    Integer CODE_SUCCESS=0; //操作成功
 	    Integer CODE_ERROR=-1;//失败
@@ -53,5 +55,7 @@ public interface SysConstate {
 	    Integer RENT_BACK_TRUE = 2;
 
 	    String USER_CODE_ERROR_MSG = "验证码错误";
+	    String FILE_UPLOAD_TEMP = "_temp";
+	    
 
 }

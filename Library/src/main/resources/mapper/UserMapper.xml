@@ -15,6 +15,8 @@
         <result column="info" property="info" />
         <result column="address" property="address" />
         <result column="email" property="email" />
+        <result column="img" property="img" />
+        <result column="count" property="count" />
     </resultMap>
 
 </mapper>

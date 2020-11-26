@@ -1,16 +1,29 @@
-#logging:
-#  file:
-#    name: System.log
-#    path: /var/log#  level:
-#    com.lib.demo.mapper.*: debug
-#mybatis:#  mapper-locations:#  - mapper/*.xml
-#  type-aliases-package: com.lib.demo.bean
-server:  port: 8888
+logging:
+  file:
+    name: System.log
+    path: /var/log  level:
+    com.lib.demo.mapper.*: debug
+server:  port: 8888  servlet:    session:      timeout: 3600 
 spring:
-  devtools:    restart:      enabled: true  datasource:    url: jdbc:mysql://localhost:3306/library?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+  mail:
+    host: smtp.163.com
+    username: panjuncong007@163.com
+    password: PCITJEXFCHKMXWVM
+    default-encoding: utf-8
+    protocol: smtps
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+  devtools:    restart:      enabled: true  datasource:    url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=UTF-8&useSSL=false
     username: root
     password: root
     driver-class-name: com.mysql.jdbc.Driver
 mybatis-plus:
   type-aliases-package: com.lib.demo.bean
   mapper-locations:  - mapper/*.xml
+  configuration:
+        log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #开启sql日志

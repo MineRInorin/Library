@@ -12,6 +12,8 @@
         <result column="country" property="country" />
         <result column="length" property="length" />
         <result column="theme" property="theme" />
+        <result column="bookdesc" property="bookdesc" />
+        <result column="img" property="img" />
     </resultMap>
 
 </mapper>

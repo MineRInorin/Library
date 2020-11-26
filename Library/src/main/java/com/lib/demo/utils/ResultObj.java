@@ -54,6 +54,13 @@ public class ResultObj {
 	     * 登陆失败
 	     */
 	    public static final ResultObj LOGIN_ERROR=new ResultObj(SysConstate.CODE_ERROR, SysConstate.LOGIN_ERROR);
+	    /*归还成功
+	    */
+	    public static final ResultObj RETURN_SUCCESS=new ResultObj(SysConstate.CODE_SUCCESS, SysConstate.RETURN_SUCCESS);
+	    /**
+	     * 归还失败
+	     */
+	    public static final ResultObj RETURN_ERROR=new ResultObj(SysConstate.CODE_ERROR, SysConstate.RETURN_ERROR);
 	  
 
 

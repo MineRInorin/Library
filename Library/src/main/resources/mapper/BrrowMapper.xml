@@ -11,9 +11,45 @@
         <result column="book_name" property="bookName" />
         <result column="u_id" property="uId" />
         <result column="book_id" property="bookId" />
-        <result column="brrow_date" property="brrowDate" />
-        <result column="return_date" property="returnDate" />
-        <result column="expect_date" property="expectDate" />
+        <result column="brrow_date" property="brrowDate" jdbcType="TIMESTAMP"/>
+        <result column="return_date" property="returnDate" jdbcType="TIMESTAMP"/>
+        <result column="expect_date" property="expectDate" jdbcType="TIMESTAMP"/>
     </resultMap>
+    
+    
+    <select id="selectBrrowCountPageList" resultType="com.lib.demo.bean.Brrow" >
+    select book_id,book_name,count(book_id) as brrCount,book.author,book.theme,book.country
+     from brrow 
+    inner join book where book.id=book_id group by book_id   
+    order by brrCount desc
+    </select>
+    
+    <select id="findRankbyBook" resultType="com.lib.demo.bean.Tongji" >
+      select book_name name,count(book_id)  value
+     from brrow 
+    inner join book where book.id=book_id group by book_id   
+    order by value desc
+    </select>
+    <select id="findRankbyAuthor" resultType="com.lib.demo.bean.Tongji" >
+     select  tb.name,sum(v) value from (select book.author name,count(book.author) v 
+     from brrow 
+    inner join book where book.id=brrow.book_id  group by name  ) tb 
+    group by tb.name 
+    order by value desc
+    </select>
+    <select id="findRankbyType" resultType="com.lib.demo.bean.Tongji" >
+      select  tb.name,sum(v) value from (select book.type name,count(book.type) v 
+     from brrow 
+    inner join book where book.id=brrow.book_id  group by name  ) tb 
+    group by tb.name
+    order by value desc
+    </select>
+    <select id="findRankbyMonth" resultType="com.lib.demo.bean.Tongji" >
+       select count(*) as value,date_format(brrow_date,'%m') as name 
+       from brrow 
+       where brrow_date>='2020-01-01 00:00:00'
+        group by name 
+       order by name
+    </select>
 
 </mapper>

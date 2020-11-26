@@ -5,14 +5,12 @@ import com.baomidou.mybatisplus.extension.activerecord.Model;
 import java.time.LocalDate;
 import com.baomidou.mybatisplus.annotation.TableId;
 import java.io.Serializable;
+import java.sql.Date;
+
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
 /**
- * <p>
- * 
- * </p>
- *
  * @author ibm5
  * @since 2020-11-17
  */
@@ -22,7 +20,7 @@ public class User extends Model<User> {
 
     private static final long serialVersionUID = 1L;
 
-    @TableId(value = "id", type = IdType.AUTO)
+    @TableId(type = IdType.ASSIGN_ID)
     private Integer id;
 
     private String name;
@@ -31,9 +29,9 @@ public class User extends Model<User> {
 
     private Integer age;
 
-    private LocalDate birthday;
+    private Date birthday;
 
-    private Integer tel;
+    private Long tel;
 
     private Integer roleId;
 
@@ -44,7 +42,8 @@ public class User extends Model<User> {
     private String address;
 
     private String email;
-
+   
+    private String img;
 
     @Override
     protected Serializable pkVal() {
