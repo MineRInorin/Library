@@ -13,6 +13,7 @@ import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.lib.demo.bean.Bean;
 import com.lib.demo.bean.Book;
 import com.lib.demo.bean.Brrow;
 import com.lib.demo.constate.SysConstate;
@@ -144,6 +145,18 @@ public class BookServiceImpl extends ServiceImpl<BookMapper, Book> implements Bo
 				String realname = AppFileUtils.updateFileName(oldname, SysConstate.FILE_UPLOAD_TEMP);
 				book.setImg(realname);
 				return updateById(book) ? ResultObj.UPDATE_SUCCESS : ResultObj.UPDATE_ERROR;
+	}
+
+	@Override
+	public List<Bean> selecttype() {
+		// TODO Auto-generated method stub
+		return bookmapper.selecttype();
+	}
+
+	@Override
+	public List<Bean> selectcountry() {
+		// TODO Auto-generated method stub
+		return bookmapper.selectcountry();
 	}
 	
 	

@@ -135,7 +135,7 @@ public class BrrowServiceImpl extends ServiceImpl<BrrowMapper, Brrow> implements
 			wrapper.eq(brrowVo.getBrrCheck()!=null,"brr_check", brrowVo.getBrrCheck());
 			wrapper.ge(brrowVo.getStartDate()!=null, "brrow_date", brrowVo.getStartDate());
 			wrapper.le(brrowVo.getEndDate()!=null, "brrow_date", brrowVo.getEndDate());
-			
+			wrapper.orderByDesc("brrow_date");
 			return brrowMapper.selectPage(page, wrapper);
 		}
 		@Override

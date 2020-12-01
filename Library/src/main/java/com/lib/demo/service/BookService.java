@@ -1,5 +1,6 @@
 package com.lib.demo.service;
 
+import com.lib.demo.bean.Bean;
 import com.lib.demo.bean.Book;
 import com.lib.demo.utils.ResultObj;
 import com.lib.demo.vo.BookVo;
@@ -28,4 +29,6 @@ public interface BookService extends IService<Book> {
 		ResultObj saveBook(List<Book> book);
 		public Map<String, Object> uploadImg(MultipartFile mf);
 		public ResultObj updateImg(Book book);
+		List<Bean> selecttype();
+		List<Bean> selectcountry();
 }

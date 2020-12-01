@@ -18,6 +18,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 import com.alibaba.fastjson.JSON;
 import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.lib.demo.bean.Bean;
 import com.lib.demo.bean.Book;
 import com.lib.demo.service.BookService;
 import com.lib.demo.utils.ResultObj;
@@ -63,6 +64,17 @@ public class BookController {
 		List<Book> list = JSON.parseArray(JSON.parseObject(str).getString("book"), Book.class);
 		return bookService.saveBook(list);
 	}
+	@GetMapping("type")
+	public List<Bean> selecttype(){
+		return bookService.selecttype();
+		
+	}
+	@GetMapping("country")
+	public List<Bean> selectcountry(){
+		return bookService.selectcountry();
+		
+	}
+	
 	
 	@GetMapping("getbyId/{id}")
 	public Book GetBook(@PathVariable("id")Integer id){

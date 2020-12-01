@@ -99,13 +99,15 @@ public class FileController {
 	    public void exportExcel(HttpServletRequest request, HttpServletResponse response) {
 	        Book obj = new Book();
 	        String name =(String) request.getParameter("bookname");
-	        System.out.println("------@@@@@"+name);
 	        String type =(String) request.getParameter("type");
+	        System.out.println("------@@@@@"+type);
 	        String author =(String) request.getParameter("author");
+	        String country =(String) request.getParameter("country");
 	        QueryWrapper<Book> wrapper = new QueryWrapper<Book>();
 	        wrapper.like(name!=null&&name!="", "name",name);
-	        wrapper.like(type!=null&&name!="", "type",type);
+	        wrapper.like(type!=null&&type!="", "type",type);
 	        wrapper.like(author!=null&&author!="", "author",author);
+	        wrapper.like(country!=null&&country!="", "country",country);
 	        
 	        List<Book> list = bookservice.list(wrapper);
 	        String[] title = {"ID", "name", "author", "total", "type", "country", "length","theme","bookdesc"};
@@ -127,7 +129,6 @@ public class FileController {
 	        } catch (Exception e) {
 	            e.printStackTrace();
 	        }
-	        System.out.println(content[1]);
 	        HSSFWorkbook wb = ExcelUtil.getHSSFWorkbook(sheetName, title, content, null);
 	        try {
 	            // 响应到客户端

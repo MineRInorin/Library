@@ -15,5 +15,14 @@
         <result column="bookdesc" property="bookdesc" />
         <result column="img" property="img" />
     </resultMap>
-
+	
+	<select id="selectauthor" resultType="com.lib.demo.bean.Bean">
+	select author value,author label from book group by value;
+	</select>
+	<select id="selecttype" resultType="com.lib.demo.bean.Bean">
+	select type value,type label from book group by value;
+	</select>
+	<select id="selectcountry" resultType="com.lib.demo.bean.Bean">
+	select country value,country label from book group by value;
+	</select>
 </mapper>

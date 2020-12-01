@@ -1,6 +1,9 @@
 package com.lib.demo.mapper;
 
+import com.lib.demo.bean.Bean;
 import com.lib.demo.bean.Book;
+
+import java.util.List;
 
 import org.springframework.stereotype.Repository;
 
@@ -16,5 +19,7 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  */
 @Repository
 public interface BookMapper extends BaseMapper<Book> {
+	List<Bean> selecttype();
+	List<Bean> selectcountry();
 
 }

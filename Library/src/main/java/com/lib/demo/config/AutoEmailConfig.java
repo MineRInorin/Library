@@ -31,7 +31,7 @@ public class AutoEmailConfig {
 	@Autowired
 	BrrowService brrowservice;
 
-	@Scheduled(cron = "0 0 19 * * ?")
+	@Scheduled(cron = "0 55 16 * * ?")
 	@Async("taskExecutor")
 	public void send() {
 		
